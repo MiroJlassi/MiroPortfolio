@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-family: "Arial";
+  font-stretch: condensed;
+}
+button {
+  position:absolute;
+}
+
+body{
+  background-image: url("MEpic.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
