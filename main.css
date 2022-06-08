@@ -1,8 +1,9 @@
 body {
-  background-image: url("cute_boy_1.png");
-  background-size: 100%;
+  background-image: url("0007.png");
+  background-size: 90%;
   background-repeat: no-repeat;
-  position:fixed;
+  background-color: #a9c6ce;
+  position:relative;
 }
 
 .marwen{
@@ -28,8 +29,9 @@ body {
 
 
   background-color: rgba(0,0,0,0.8);
-
-
-
-
+}
+img{
+  width: 50%;
+  margin-left:650px;
+  margin-top: 250px;
 }

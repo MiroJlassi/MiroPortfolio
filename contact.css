@@ -1,3 +1,10 @@
+body{
+  background-image: url("0007.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: #a9c6ce;
+  position:relative;
+}
 .ext_link {
   display: flex;
   justify-content: center;
