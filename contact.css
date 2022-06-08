@@ -11,6 +11,24 @@
 }
 .abc{
   display:block;
-  border-radius: 22;
-  padding: 0px 2px;
+  padding-right: 10px;
+
+}
+.bluee{
+  background-color: rgba(0,0,0,0.8);
+}
+.magenta{
+  background-color: rgba(0,0,0,0.8);
+}
+.redo{
+  background-color: rgba(0,0,0,0.8);
+}
+.bluee:hover{
+  background-color:	blue;
+}
+.magenta:hover{
+  background-color: #8134AF;
+}
+.redo:hover{
+  background-color: red;
 }
