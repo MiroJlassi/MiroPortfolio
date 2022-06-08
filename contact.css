@@ -13,6 +13,7 @@ body{
   position: fixed;
   list-style-type:none;
   margin-top:  250px;
+  margin-left: 140px;
   padding: 0px;
   overflow: hidden;
 }
@@ -51,7 +52,8 @@ body{
   list-style-type:none;
   font-family: "Consolas" ;
 
-  margin-bottom: 200px;
+  margin-bottom: 180px;
+  margin-left: 140px;
   font-size: 20px;
   padding: 0px;
   bottom: 0;

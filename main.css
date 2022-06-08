@@ -30,8 +30,34 @@ body {
 
   background-color: rgba(0,0,0,0.8);
 }
+
 img{
+  border:solid 2px  rgba(0,0,0,0.8);
+  border-radius: 20px;
   width: 50%;
-  margin-left:650px;
-  margin-top: 250px;
+  margin-left:600px;
+  margin-top:230px;
+}
+
+
+
+button {
+  background-color: rgba(255,200,109,255);
+  border: solid 5px rgba(230,180,98,255);
+  border-radius: 20px;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "consolas";
+  font-size: 20px;
+  margin-left: 1030px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btnn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
