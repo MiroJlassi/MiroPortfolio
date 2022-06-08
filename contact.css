@@ -1,0 +1,16 @@
+.ext_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  list-style-type:none;
+  margin-top:  200px;
+  padding: 0px;
+  overflow: hidden;
+}
+.abc{
+  display:block;
+  border-radius: 22;
+  padding: 0px 2px;
+}
