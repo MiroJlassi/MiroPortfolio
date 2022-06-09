@@ -1,0 +1,31 @@
+.projects {
+  text-align: center;
+  font-size: 150%;
+  margin: 5%;
+  padding: 1%;
+  border-radius: 30px;
+
+  border: solid 2px;
+}
+.escape_circles{
+  font-size: 150%;
+  position: relative;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 30px;
+  margin: 5%;
+  padding:6.8%;
+}
+.esclg img{
+   width: 30%;
+   float:left;
+   margin: 2%;
+   padding-right: 5%;
+   padding-left: 5%;
+
+}
+
+
+body {
+  background-color: rgba(0,0,200,0.3)
+}
