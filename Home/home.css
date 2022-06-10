@@ -1,3 +1,12 @@
+body {
+  background-image: url("ambouba.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #a9c6ce;
+  position:relative;
+  font-family: "Trebuchet MS" ;
+}
+
 .navbarg{
   z-index: 20;
   display: flex;
@@ -30,13 +39,4 @@
 .navbarg a:hover{
   color: rgba(0, 0, 0, 0.8);
   background-color: white;
-}
-
-body {
-  background-image: url("ambouba.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #a9c6ce;
-  position:absolute;
-  font-family: "Trebuchet MS" ;
 }
