@@ -1,0 +1,97 @@
+body {
+  background-color: #a9c6ce;
+  font-family: "Trebuchet MS" ;
+}
+
+.navbarg{
+  z-index: 20;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Courier New" ;
+  font-weight: bold;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top:0;
+  padding:1%;
+  width: 98%;
+  margin-left: -0.65%;
+
+}
+.navbarg a{
+  display: block;
+  padding: 0.5% 1% 0% 1%;
+  color: white;
+  padding: 0.5% 1% 0.5% 1%;
+  border-radius: 20px;
+}
+
+.navbarg a:link{
+  text-decoration: none;
+}
+
+.navbarg a:hover{
+  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
+}
+
+
+
+
+
+.linkss {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+.linkss a {
+  padding: 1%;
+}
+.linkss img{
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fb:hover{
+  background-color: #4267B2;
+}
+.ig:hover{
+  background-color: #fb3958;
+}
+.in:hover{
+  background-color: #0072B1;
+}
+.yt:hover{
+  background-color: red;
+}
+.git:hover{
+  background-color: darkmagenta;
+}
+.itch {
+  text-align: center;
+}
+.itch img{
+  width:10%;
+}
+
+.discord{
+  text-align: center;
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 15px;
+}
+.discord img {
+  width:  5%;
+
+}
+
+.gmail{
+  text-align: center;
+  font-family: "Courier New";
+  font-weight: bold;
+}
+.gmail img {
+  width:  5%;
+}

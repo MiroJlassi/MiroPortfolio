@@ -5,6 +5,16 @@ body{
   background-color: #a9c6ce;
   position:relative;
 }
+
+
+
+
+
+
+
+
+
+
 .ext_link {
   display: flex;
   justify-content: center;
@@ -31,6 +41,7 @@ body{
 .redo{
   background-color: rgba(0,0,0,0.8);
 }
+
 .bluee:hover{
   background-color:	#4267B2;
 }
@@ -40,6 +51,24 @@ body{
 .redo:hover{
   background-color: red;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tocopy{
 
