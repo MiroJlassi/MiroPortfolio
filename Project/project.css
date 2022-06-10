@@ -1,9 +1,47 @@
+.navbarg{
+  z-index: 20;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Courier New" ;
+  font-weight: bold;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top:0;
+  padding:1%;
+  width: 98%;
+  margin-left: -0.65%;
+
+}
+.navbarg a{
+  display: block;
+  padding: 0.5% 1% 0% 1%;
+  color: white;
+  padding: 0.5% 1% 0.5% 1%;
+  border-radius: 20px;
+}
+
+.navbarg a:link{
+  text-decoration: none;
+}
+
+.navbarg a:hover{
+  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
+}
+
+
+
+
+
+
 .projects {
   text-align: center;
   font-size: 150%;
   margin: 5%;
   padding: 1%;
-  border: 2px solid;
 }
 .escape_circles{
   font-size: 150%;
@@ -11,8 +49,6 @@
   text-align: center;
   margin: 5%;
   padding:4.6%;
-  z-index: 1;
-  border: 2px solid;
 }
 
 .esclg img{
@@ -21,6 +57,7 @@
    margin: 2%;
    padding-right: 5%;
    padding-left: 5%;
+
 }
 .screenshots{
   display: flex;
@@ -48,8 +85,25 @@
 }
 
 
-
 body {
-  background-color: rgba(0,0,200,0.3);
-  font-family: "Lucida Handwriting"
+  background-image: url("ambouba.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #a9c6ce;
+  position:relative;
+  font-family: "Trebuchet MS" ;
+}
+
+.windimg{
+  text-align: center;
+  font-size: 150%;
+  padding:0% 5% 0% 5%;
+}
+.windimg img {
+  width:70%;
+  padding:5%;
+}
+.windimg img:hover{
+  width:90%;
+  padding:2%;
 }
