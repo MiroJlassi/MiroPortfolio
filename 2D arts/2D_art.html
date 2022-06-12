@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" href="2D_art.css">
+
+    <meta>
+    <title>Miro 3D Arts</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbarg">
+        <a href="../Home/home.html">HOME</a>
+        <a href="../Project/project.html" >PROJECTS</a>
+        <a href="../3D arts/3D_art.html">3D ARTS</a>
+        <a href="../2D arts/2D_art.html">2D ARTS</a>
+        <a href="">ABOUT</a>
+        <a href="../Contact/contact.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <section>
+      <div class="entete">
+        <h1>2D ARTS</h1>
+        <p>i hooked into drawing since my childhood
+          i used to draw anime characters at first my youtube channel was a drawning channel
+          . 2018 downloaded Adobe Illustrator and started making some easy and simple 2d vector art.
+        </p>
+      </div>
+      <div class="quarantanimation">
+        <h1>#QUARANTANIMATION 2020</h1>
+        <p>#Quarantanimation is an Instagram challenge where condidats have to post a 1min animation during 31 days of january. All my submission can be found on my Instagram </p>
+        <div class="quarantanimation_vid">
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 1.mp4" type="video/mp4">
+          </video>
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="quarantanimation_vid">
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 3.mp4" type="video/mp4">
+          </video>
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 4.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="quarantanimation_vid">
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 5.mp4" type="video/mp4">
+          </video>
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 6.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="quarantanimation_vid">
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 7.mp4" type="video/mp4">
+          </video>
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 10.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="quarantanimation_vid">
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/anime 13.mp4" type="video/mp4">
+          </video>
+          <video width="440" height="300" controls>
+            <source src="../2D arts/imgss/walk man .mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="espcricles">
+        <h1>ESCAPE CIRCLES June 2020</h1>
+        <p>Check PROJECTS section in order to know more about escape circles</p>
+        <img src="../2D arts/imgss/feature graphique.png" alt="">
+      </div>
+      <h1>PIXEL ART (walk cycle) summer 2019</h1>
+      <div class="pixel">
+        <video width="520" height="370" controls>
+          <source src="../2D arts/imgss/video-1562002065.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h1>JUNE 2022 got my graphic tablet (Wacom CTL-672) </h1>
+      <p>Here is my first drawing made with the new tablet</p>
+      <img src="../2D arts/imgss/first try.png" alt="" style="border: 2px solid black;border-radius: 22px;">
+
+
+      <div class="degitalart">
+        <p>1 week of using the new tablet </p>
+        <div class="art">
+          <img src="../2D arts/imgss/cute_boy_1.png" alt="">
+          <img src="../2D arts/imgss/bonnee girl.png" alt="">
+          <img src="../2D arts/imgss/7echuma girl.png" alt="">
+          <img src="../2D arts/imgss/tofla.png" alt="">
+        </div>
+      </div>
+
+      <h1>WALK CYCLE 2D summer 2021</h1>
+      <div class="gris">
+        <img id="gris" src="">
+        <script>
+          var i = 0;
+          var t = [
+          "../2D arts/imgss/1.png",
+          "../2D arts/imgss/2.png",
+          "../2D arts/imgss/3.png",
+          "../2D arts/imgss/4.png",
+          "../2D arts/imgss/5.png",
+          "../2D arts/imgss/a.png",
+          "../2D arts/imgss/b.png",
+          "../2D arts/imgss/c.png",
+          "../2D arts/imgss/d.png",
+          "../2D arts/imgss/e.png",
+          ];
+
+          function AutoChangeImage()
+          {
+            document.getElementById("gris").src = t[i];
+            i++;
+
+            if (i == 10)
+            {
+              i = 0;
+            }
+
+            setTimeout(function () {
+              AutoChangeImage();
+            }, 110);
+          }
+
+          AutoChangeImage();
+        </script>
+      </div>
+    </section>
+
+
+
+  </body>
+</html>

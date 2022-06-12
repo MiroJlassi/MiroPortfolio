@@ -4,7 +4,9 @@ body {
   background-repeat: no-repeat;
   background-color: #a9c6ce;
   position:relative;
-  font-family: "Trebuchet MS" ;
+  font-family: "Courier New" ;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -48,18 +50,22 @@ body {
 .entete {
   text-align: center;
   margin:10% 5% 2% 5%;
-  border : 0.5px solid;
 }
 
 .japcity {
   display: flex;
   justify-content: center;
   margin:0% 5% 5% 5%;
-  border : 0.5px solid;
+
+
 }
 
 .japcity img{
   width: 50%;
+  padding:1%;
+
+  border:2px solid white;
+  border-radius: 22px;
 
 }
 
@@ -68,7 +74,9 @@ body {
   display: flex;
   justify-content: center;
   margin:0% 5% 5% 5%;
-  border : 0.5px solid;
+
+  border:2px solid white;
+  border-radius: 22px;
 }
 .japcityproc img{
   width: 20%;
@@ -79,29 +87,105 @@ body {
   display: flex;
   justify-content: center;
   margin:0% 5% 5% 5%;
-  border : 0.5px solid;
 }
 .train img{
   width: 90%;
+  border:2px solid white;
+  border-radius: 22px;
 }
 
 .wind{
   display: flex;
   justify-content: center;
   margin:0% 5% 5% 5%;
-  border : 0.5px solid;
 }
 
 .wind img{
   width: 90%;
+
+  border:2px solid white;
+  border-radius: 22px;
 }
 .bah{
   display: flex;
   justify-content: center;
   margin:0% 5% 5% 5%;
-  border : 0.5px solid;
+  border:2px solid white;
+  border-radius: 22px;
 }
 .bah img{
   width: 40%;
   padding: 2%;
+}
+
+.janimation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:0% 5% 0.5% 5%;
+}
+
+.janimation img{
+  width: 40%;
+  border:2px solid white;
+  border-radius: 22px;
+}
+
+.spimg{
+  display: flex;
+  justify-content: center;
+  margin:0% 5% 0.5% 5%;
+}
+
+.spimg img {
+  width: 80%;
+  border:2px solid white;
+  border-radius: 22px;
+}
+
+.cutegirl{
+  display: flex;
+  justify-content: center;
+  margin:0% 5% 15% 5%;
+}
+.cutegirl img {
+  width:60%;
+  border:2px solid white;
+  border-radius: 22px;
+}
+
+.video{
+  margin:2% 5% 4% 5%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10% 0% 2% 0%;
+}
+
+.ambouba{
+  display: flex;
+  justify-content: center;
+  margin:0% 5% 0.5% 5%;
+}
+
+.ambouba img{
+  width: 75%;
+  border:2px solid white;
+  border-radius: 22px;
+}
+
+.rtsgame{
+  display: flex;
+  justify-content: center;
+  margin:0% 5% 10% 5%;
+}
+
+.rtsgame img{
+  width: 45%;
+  padding: 1%;
+  border:2px solid white;
+  border-radius: 22px;
 }

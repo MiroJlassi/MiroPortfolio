@@ -1,0 +1,106 @@
+body {
+  background-image: url("ambouba.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #a9c6ce;
+  position:relative;
+  font-family: "Courier New" ;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbarg{
+  z-index: 20;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Courier New" ;
+  font-weight: bold;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top:0;
+  padding:1%;
+  width: 98%;
+  margin-left: -0.65%;
+
+}
+.navbarg a{
+  display: block;
+  padding: 0.5% 1% 0% 1%;
+  color: white;
+  padding: 0.5% 1% 0.5% 1%;
+  border-radius: 20px;
+}
+
+.navbarg a:link{
+  text-decoration: none;
+}
+
+.navbarg a:hover{
+  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
+}
+
+.entete {
+  margin: 15% 5% 10% 5%;
+}
+
+.quarantanimation{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quarantanimation_vid video {
+  border: 2px solid white;
+  border-radius: 22px;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+
+
+.espcricles img{
+  width: 50%;
+  border: 8px solid  rgba(100,0,100,0.8);
+  border-radius: 22px;
+}
+
+.pixel video {
+  border: 2px solid white;
+  border-radius: 22px;
+}
+
+.degitalart{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 7% 5%10%5%;
+}
+
+.art img {
+  width:65%;
+  border: 2px solid black;
+  border-radius: 22px;
+  margin-top: 2%;
+}
+
+.gris{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8%;
+}
+
+.gris img {
+  width: 50%;
+
+  border: 2px solid black;
+  border-radius: 22px;
+
+}
+h1 {
+  font-size: 40px;
+  margin: 10% 0% 2% 0%;
+}
